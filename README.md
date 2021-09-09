@@ -10,3 +10,5 @@ To start contributing, follow the below guidelines:
 git clone https://github.com/<your_user_name>/commclassroom.git
 
 ```
+
+<img src="Img/s1.png"  width="800">
