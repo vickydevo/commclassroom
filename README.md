@@ -44,7 +44,7 @@ git checkout -b <your_branch_name>
 
 **8.** Perform your desired changes to the code base.
 
-<img src="Img/programming.gif"  width="400">
+<p align="center"><img src="Img/programming.gif"  width="400"></p>
 
 
 
