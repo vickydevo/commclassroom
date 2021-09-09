@@ -67,4 +67,11 @@ git push -u origin <your_branch_name>
 
 <img src="Img/s2.png"  width="800">
 
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+**14.** Click on `Create Pull Request`.
+
+<img src="screenshots/ss2.png" width=800>
+
+
 
