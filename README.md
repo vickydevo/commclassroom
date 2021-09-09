@@ -44,7 +44,34 @@ git checkout -b <your_branch_name>
 
 **8.** Perform your desired changes to the code base.
 
-<img src="Img/programming.gif"  width="200">
+<p align="center"><img src="Img/programming.gif"  width="400"></p>
+
+**9.** Track your changes:heavy_check_mark: .
+
+```
+git add .
+```
+
+**10.** Commit your changes
+```
+git commit -m "Relevant message"
+```
+
+**11.** Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+**12.** To create a pull request, click on `compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
+
+<img src="Img/s2.png"  width="800">
+
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+**14.** Click on `Create Pull Request`.
+
+<img src="screenshots/ss2.png" width=800>
 
 
 
