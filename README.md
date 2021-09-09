@@ -73,7 +73,7 @@ git push -u origin <your_branch_name>
 
 <img src="Img/s3.png"  width="800">
 
-**15** Voila :exclamation: You have made a PR to the Vaccine-Tracker-App project :boom: Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days.
+**15** Voila :exclamation: You have made a PR to the Community Classroom  :boom: Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days.
 
 
 <p align="center"><img src="Img/done.gif" width=400></p>
