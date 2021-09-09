@@ -29,3 +29,15 @@ git remote add upstream https://github.com/commclassroom/commclassroom.git
 ```
 git remote -v
 ```
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream main
+```
+
+**7.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
