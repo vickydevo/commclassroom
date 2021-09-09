@@ -65,7 +65,7 @@ git push -u origin <your_branch_name>
 
 **12.** To create a pull request, click on `compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
 
-
+<img src="Img/s2.png"  width="800">
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
