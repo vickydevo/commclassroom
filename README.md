@@ -71,7 +71,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-<img src="screenshots/ss2.png" width=800>
+<img src="screenshots/s3.png" width=800>
 
 
 
