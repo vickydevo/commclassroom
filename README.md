@@ -78,6 +78,7 @@ git push -u origin <your_branch_name>
 
 <p align="center"><img src="Img/done.gif" width=400></p>
 
-
-
-
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/commclassroom/commclassroom/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=commclassroom/commclassroom"/>
+</a>
