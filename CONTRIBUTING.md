@@ -1,4 +1,6 @@
-To start contributing, follow the below guidelines:
+# Contributing Guidelines
+
+We would love to accept your contributions! To start contributing, follow the below guidelines:
 
 **1.** Fork [this](https://github.com/commclassroom/commclassroom) repository.
 
@@ -75,3 +77,9 @@ git push -u origin <your_branch_name>
 
 
 <p align="center"><img src="Img/done.gif" width=400></p>
+
+## PR Review
+Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If all will be fine, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest changes to this documentation.
+
+## Note
+Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding tests.
