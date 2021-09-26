@@ -1123,6 +1123,7 @@ section {
     font-size: 16px;
     padding: 0px;
     color: white;
+    display:inline-flex;
 }
 
 #contact .footer-top .foot2 span i {
