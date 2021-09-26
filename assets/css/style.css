@@ -1055,8 +1055,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-    background-color: #0670AA;
-      
+    background-image: linear-gradient(158deg, #015580,#0492ce,#0394d1,#015580);
     color: #5f687b;
     font-size: 14px;
     position: relative;
