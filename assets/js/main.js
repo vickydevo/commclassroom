@@ -1,6 +1,35 @@
 "use strict";
 var courseForm;
 (function () {
+    
+     /**
+      * Dark theme function 
+      */
+
+     initialTheme()
+
+     let themeBtn = document.getElementById("btn-theme")
+
+     themeBtn.onclick = function() {
+         if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
+            document.body.classList = "dark-theme"
+            localStorage.setItem("theme", "dark")
+         } else {
+            document.body.classList = ""
+            localStorage.setItem("theme", "light")
+         }
+     }
+
+     function initialTheme() {
+         switch(localStorage.getItem("theme")) {
+             case "dark":
+                 document.body.classList = "dark-theme"
+                 break
+             case (null || "light"):
+                document.body.classList = ""
+                break
+         }
+     }
 
     /**
      * Easy selector helper function
