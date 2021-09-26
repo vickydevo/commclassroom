@@ -2,38 +2,6 @@
 var courseForm;
 (function () {
 
-     /**
-      * Dark theme function 
-      */
-
-     initialTheme()
-
-     let themeBtn = document.getElementById("btn-theme")
-
-     themeBtn.onclick = function() {
-         switch (localStorage.getItem("theme")) {
-             case "dark":
-                document.body.classList = ""
-                localStorage.setItem("theme", "light")
-                break
-             case (null || "light"):
-                document.body.classList = "dark-theme"
-                localStorage.setItem("theme", "dark")
-                break
-         }
-     }
-
-     function initialTheme() {
-         switch(localStorage.getItem("theme")) {
-             case "dark":
-                 document.body.classList = "dark-theme"
-                 break
-             case (null || "light"):
-                document.body.classList = ""
-                break
-         }
-     }
-
     /**
      * Easy selector helper function
      */
