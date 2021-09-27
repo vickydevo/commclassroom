@@ -14,10 +14,12 @@ var courseForm;
             document.body.classList = "dark-theme"
             localStorage.setItem("theme", "dark")
             logoImg.src = 'assets/img/logo3.png'
+            document.getElementById("title-section").style.color="white"
          } else {
             document.body.classList = ""
             localStorage.setItem("theme", "light")
             logoImg.src = 'assets/img/logo2.png'
+            document.getElementById("title-section").style.color="#002387"
          }
      }
 

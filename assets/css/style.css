@@ -628,15 +628,13 @@ section {
 # Courses
 --------------------------------------------------------------*/
 
-.courses h2 {
-    color: var(--head-color);
+.coursespanel .container{
+    background-color: var(--theme-color);
 }
-
 .courses .coursecard {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px 12px 14px;
-    ;
     background: #ebecf3;
     border-radius: 30px;
     transition: 0.3s;
@@ -1368,11 +1366,12 @@ section {
 }
 
 .coursespanel {
-    background-color: #fff;
+    background-color: var(--theme-color);
 }
 
 .coursespanel h2 {
     color: #002387;
+    top: -20x;
 }
 
 .coursespanel .coursecard {
