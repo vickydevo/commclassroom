@@ -10,7 +10,6 @@ var courseForm;
 
      let themeBtn = document.getElementById("btn-theme")
      let logoImg = document.getElementById("logo-img")
-     logoImg.src = 'assets/img/logo3.png'
 
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
