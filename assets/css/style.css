@@ -2,11 +2,27 @@
 # General
 --------------------------------------------------------------*/
 
+:root {
+    --theme-color: #fff;
+    --secondary-color: #F2F4F7;
+    --head-color: black;
+    --text-color: #444444;
+}
+
+
+.dark-theme {
+    --secondary-color: rgb(44, 44, 44);
+    --theme-color: rgb(29, 29, 29);
+    --head-color: white;
+    --text-color: rgb(230, 230, 230);
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 body {
+    background: var(--theme-color);
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
@@ -97,7 +113,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: #fff;
+    /* background: #fff; */
+    background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
     padding: 5px 0;
@@ -181,7 +198,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #000000;
+    color: var(--text-color);
     text-underline-offset: 0.2rem;
     text-decoration: underline;
 }
@@ -268,6 +285,14 @@ h6 {
     top: 0;
     left: 100%;
     visibility: visible;
+}
+
+.btn-theme {
+    margin: 0 0 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: slategray;
 }
 
 @media (max-width: 1366px) {
@@ -398,7 +423,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.603), rgb(170, 196, 255));
+    background-image: linear-gradient(to bottom,var(--theme-color), rgb(78, 127, 241));
     padding-top: 160px;
 }
 
@@ -407,11 +432,11 @@ h6 {
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
-    color: #181818;
+    color: var(--head-color);
 }
 
 #hero h2 {
-    color: #858ea1;
+    color: var(--text-color);
     margin: 8px 0px 35px 0;
     font-size: 22px;
     line-height: 32px;
@@ -544,7 +569,7 @@ section {
 }
 
 .section-bg {
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .section-title {
@@ -605,7 +630,7 @@ section {
 --------------------------------------------------------------*/
 
 .courses h2 {
-    color: black;
+    color: var(--head-color);
 }
 
 .courses .coursecard {
@@ -695,11 +720,11 @@ section {
 --------------------------------------------------------------*/
 .counts {
     padding: 20px;
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .counts h2 {
-    color: #000000;
+    color: var(--head-color);
     margin-top: -25px;
 }
 
@@ -721,6 +746,7 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 600;
+    color: var(--text-color);
 }
 @media(max-width: 991px) {
     .counts .col-6{ 
@@ -741,7 +767,7 @@ section {
 --------------------------------------------------------------*/
 #about {
     padding: 10px;
-    background-color: #ffffff;
+    background-color: var(--theme-color);
 }
 
 .about .content h2 {
@@ -770,6 +796,7 @@ section {
 .about .content p {
     font-size: 20px;
     line-height: 30px;
+    color: var(--text-color);
 }
 
 .about .content p:last-child {
@@ -784,6 +811,7 @@ section {
 --------------------------------------------------------------*/
 .features h3 {
     margin-top: -55px;
+    color: var(--text-color);
 }
 
 .features .icon-box {
@@ -840,12 +868,12 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
     padding: 40px;
-    background-color: white;
+    background-color: var(--theme-color);
 }
 
 .testimonials h2 {
     padding-top: 35px;
-    color: black;
+    color: var(--head-color);
 }
 
 .testimonials .testimonial-item {
@@ -859,14 +887,14 @@ section {
     margin: -40px 0 0 40px;
     position: relative;
     z-index: 2;
-    border: 6px solid #fff;
+    border: 6px solid var(--secondary-color);
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 45px;
-    color: #111;
+    color: var(--text-color);
 }
 
 .testimonials .testimonial-item h4 {
@@ -898,7 +926,8 @@ section {
     font-style: italic;
     margin: -20px 15px 0 15px;
     padding: 20px 20px 60px 20px;
-    background: white;
+    background: var(--secondary-color);
+    color: var(--text-color);
     position: relative;
     border-radius: 6px;
     position: relative;
@@ -913,7 +942,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: #fff;
+    background-color: var(--theme-color);
     opacity: 1;
     border: 1px solid dodgerblue;
 }
@@ -991,7 +1020,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team h2 {
-    color: black;
+    color: var(--head-color);
 }
 
 .team .member {
