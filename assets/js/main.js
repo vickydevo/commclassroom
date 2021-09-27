@@ -9,14 +9,18 @@ var courseForm;
      initialTheme()
 
      let themeBtn = document.getElementById("btn-theme")
+     let logoImg = document.getElementById("logo-img")
+     logoImg.src = 'assets/img/logo3.png'
 
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
             document.body.classList = "dark-theme"
             localStorage.setItem("theme", "dark")
+            logoImg.src = 'assets/img/logo3.png'
          } else {
             document.body.classList = ""
             localStorage.setItem("theme", "light")
+            logoImg.src = 'assets/img/logo2.png'
          }
      }
 
