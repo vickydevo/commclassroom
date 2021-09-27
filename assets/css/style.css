@@ -1297,7 +1297,7 @@ section {
 #coursepage {
     width: 100%;
     height: 80vh;
-    background: #002387;
+    background-image: linear-gradient(90deg,#0194ce,#0194ce, #e9ecef);
     padding-top: 120px;
 }
 
